@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,600;1,600&display=swap');
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Very_Pale_Cyan: hsl(193, 100%, 96%);
+    --Very_Dark_Cyan: hsl(192, 100%, 9%);
+    --Grayish_Blue: hsl(208, 11%, 55%);
+
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.first_slide {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    /* background-image: url('images/bg-hero-desktop.svg'); */
+}
+
+.first_slide nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.Huddle {
+    width: 150px;
+}
+
+.nav_button {
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 500px;
+}
+
+.description span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.description p {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.button_first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Pink);
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+}
+.block img {
+    width: 50%;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
